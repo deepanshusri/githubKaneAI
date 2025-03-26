@@ -11,11 +11,11 @@ Step 3: Click on Actions (attached screenshot for your reference here)
 Step 4: Click on New repository secret (attached screenshot for your reference here)
 <img width="837" alt="image" src="https://github.com/user-attachments/assets/99606fdd-3488-4552-bce5-b3a87a6a03a2" />
 Step 5: Enter secret name and get the credentials value in base64 from postman or can create it using any public website (update the info in the way i have showcased in screenshots) and Click on Add secret button
-Screenshot from **postman** - <img width="1294" alt="image" src="https://github.com/user-attachments/assets/28aec5c2-5994-4248-b005-5708194d5e58" />
-Screenshot from **GitHUb** <img width="860" alt="image" src="https://github.com/user-attachments/assets/3ec44589-e1e1-45a6-8e4f-b0f18a17c5a0" />
+Screenshot from postman - <img width="1294" alt="image" src="https://github.com/user-attachments/assets/28aec5c2-5994-4248-b005-5708194d5e58" />
+Screenshot from GitHub <img width="860" alt="image" src="https://github.com/user-attachments/assets/3ec44589-e1e1-45a6-8e4f-b0f18a17c5a0" />
 Step 6: Go to Actions and then click on New Workflow (attached screenshot for your reference here)
 <img width="1659" alt="image" src="https://github.com/user-attachments/assets/c8b5b2c3-c3af-498a-a935-898d63e97010" />
-Step 7: Click on **Configure** for **Simple workflow**
+Step 7: Click on Configure for Simple workflow
 <img width="1298" alt="image" src="https://github.com/user-attachments/assets/cabcdcc8-9c7b-4d3f-86c9-677cd62aef83" />
 Step 8: Copy paste the below in file 
 
