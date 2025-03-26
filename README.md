@@ -74,5 +74,9 @@ jobs:
 ------------------------------------------------------
 
 
+Edit the details as follows 
 
+${{ secrets.AUTH_HEADER }}  to ${{ secrets.LT_Creds }}
+
+default: 'YOUR_TEST_RUN_ID' to the Test Run value which you get from the Test Run dashboard section
 
