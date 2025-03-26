@@ -82,7 +82,9 @@ default: 'YOUR_TEST_RUN_ID' to the Test Run value which you get from the Test Ru
 
 Update as the informations as suggested above and then to run it go to the **Actions** page again
 
-Follow the steps on Instructions and then click on **Run workflow**
+--------------------------- **To Run the workflow **---------------------------
+
+Follow the Instructions and then click on **Run workflow**
 <img width="1672" alt="image" src="https://github.com/user-attachments/assets/87eaa246-9d8e-47ce-871b-62b8110d0a6d" />
 
 Enter the **The Test Run ID** value which you will get getting from the Test Run Dashaord, followed by Concurrency and other details and then click on **Run workflow** button
