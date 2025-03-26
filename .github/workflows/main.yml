@@ -28,7 +28,7 @@ jobs:
         run: |
           curl --location 'https://test-manager-api.lambdatest.com/api/atm/v1/hyperexecute' \
           --header 'Content-Type: application/json' \
-          --header "Authorization: Basic cmFodWxrdW1hcmxhbWJkYXRlc3Q6Q2ZWaUNqQVdLTDRlMG5NRGp6UWdteDRaZUNIYVpleWN4Z3c0eGFha1FsQXBPSnhNSFE=" \
+          --header "Authorization: Basic $(echo -n '${{ secrets.LT_USERNAME }}:${{ secrets.LT_ACCESS_KEY }}' | base64)" \
           --data "{
               \"test_run_id\": \"${{ github.event.inputs.test_run_id }}\",
               \"concurrency\": ${{ github.event.inputs.concurrency }},
