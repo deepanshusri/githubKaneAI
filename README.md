@@ -32,7 +32,7 @@ Step 8: Copy paste the below in file
 --------------------------------------------------------
 
 ```
-name: Parameterized cURL Command
+name: KaneAI cURL Command
 
 on:
   workflow_dispatch:
