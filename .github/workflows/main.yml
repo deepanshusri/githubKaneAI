@@ -12,7 +12,7 @@ on:
         required: false
         default: 1
       title:
-        description: 'Unique Build Name'
+        description: 'Unique Build Nam'
         required: false
         default: 'UNIQUE_BUILD_NAME'
       region:
