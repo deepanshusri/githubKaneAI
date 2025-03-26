@@ -80,3 +80,18 @@ ${{ secrets.AUTH_HEADER }}  to ${{ secrets.LT_Creds }}
 
 default: 'YOUR_TEST_RUN_ID' to the Test Run value which you get from the Test Run dashboard section
 
+Update as the informations as suggested above and then to run it go to the **Actions** page again
+
+Follow the steps on Instructions and then click on **Run workflow**
+<img width="1672" alt="image" src="https://github.com/user-attachments/assets/87eaa246-9d8e-47ce-871b-62b8110d0a6d" />
+
+Enter the **The Test Run ID** value which you will get getting from the Test Run Dashaord, followed by Concurrency and other details and then click on **Run workflow** button
+<img width="340" alt="image" src="https://github.com/user-attachments/assets/a78fd916-cc41-4527-893b-f73aa4f5ba78" />
+
+**Whoooo**!!!! You did it... you should be able to see session up and running in your dashbaord with the yml output like this (refer the screenshot below)
+
+<img width="1294" alt="image" src="https://github.com/user-attachments/assets/88e70555-39ad-4753-b54e-b7eb8225b99e" />
+
+
+
+
