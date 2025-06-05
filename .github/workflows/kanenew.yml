@@ -1,0 +1,37 @@
+name: KaneAI cURL Command new
+
+on:
+  workflow_dispatch:
+    inputs:
+      test_run_id:
+        description: 'The Test Run ID'
+        required: true
+        default: 'YOUR_TEST_RUN'
+      concurrency:
+        description: 'Concurrency Level'
+        required: false
+        default: 1
+      title:
+        description: 'Unique Build Name'
+        required: false
+        default: 'UNIQUE_BUILD_NAME'
+      region:
+        description: 'Desired Region'
+        required: true
+        default: 'eastus'
+
+jobs:
+  run-curl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Parameterized cURL Command
+        run: |
+          curl --location 'https://test-manager-api.lambdatest.com/api/atm/v1/hyperexecute' \
+          --header 'Content-Type: application/json' \
+          --header "Authorization: ${{ secrets.LT_AUTH }}" \
+          --data "{
+              \"test_run_id\": \"${{ github.event.inputs.test_run_id }}\",
+              \"concurrency\": ${{ github.event.inputs.concurrency }},
+              \"title\": \"${{ github.event.inputs.title }}\",
+              \"region\": \"${{ github.event.inputs.region }}\"
+          }"
